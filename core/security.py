@@ -1,7 +1,7 @@
 # Standard libs
 import datetime
 
-import main
+from services import main
 
 from jose import jwt, JWTError
 

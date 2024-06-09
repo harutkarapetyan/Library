@@ -5,7 +5,7 @@ import datetime
 # FastAPI
 from fastapi import HTTPException, status, Depends, APIRouter
 from fastapi.responses import JSONResponse
-import main
+from services import main
 from services.confirm_registration import mail_verification_email
 
 from core import security

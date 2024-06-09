@@ -2,9 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/core/security.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/main.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/routers/auth.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/routers/forgot_password.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/routers/settings.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/main.py" dialect="GenericSQL" />
   </component>
 </project>
