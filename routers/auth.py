@@ -1,6 +1,6 @@
 # Standard libs
 import datetime
-print("hello")
+
 
 # FastAPI
 from fastapi import HTTPException, status, Depends, APIRouter
