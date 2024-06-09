@@ -1,7 +1,7 @@
 from fastapi import status, Depends, APIRouter
 from fastapi.responses import JSONResponse
 from schemas.schemas import UpdateSettings
-from services import main
+import main
 from core import security
 
 setting_router = APIRouter(tags=["settings"])

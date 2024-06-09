@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import JSONResponse
 
-from services import main
+import main
 from services.service_email import send_email
 from schemas.schemas import PasswordReset
 
